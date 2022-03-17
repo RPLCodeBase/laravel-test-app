@@ -14,7 +14,7 @@ class InformationController extends Controller
      */
     public function index()
     {
-        $information = Information::paginate(10);
+        $information = Information::orderBy('id', 'desc')->paginate(10);
         return response()->json($information);
     }
 

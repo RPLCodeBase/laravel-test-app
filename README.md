@@ -47,3 +47,8 @@ APP_URL=http://127.0.0.1:8000
 email : admin@test.com
 password : admin
 ```
+
+12. Debug Application with Telescope
+```
+http://127.0.0.1:8000/telescope
+```
