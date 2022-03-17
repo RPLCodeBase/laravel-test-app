@@ -41,3 +41,9 @@ if image upload is not working, change storage path in .env file
 ```
 APP_URL=http://127.0.0.1:8000
 ```
+
+11. Login
+```
+email : admin@test.com
+password : admin
+```
