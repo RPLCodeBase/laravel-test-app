@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Information;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -21,5 +22,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@test.com',
             'password' => bcrypt('admin'),
         ]);
+
+        Information::factory(100)->create();
     }
 }
