@@ -52,3 +52,9 @@ password : admin
 ```
 http://127.0.0.1:8000/telescope
 ```
+how to disable Telescope
+setup file config/telescope.php change enabled to false
+```
+enable = 'enabled' => env('TELESCOPE_ENABLED', true),
+disable = 'enabled' => env('TELESCOPE_ENABLED', false),
+```
