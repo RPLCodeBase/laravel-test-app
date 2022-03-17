@@ -19,7 +19,8 @@ class Index extends Component
 
     public function render()
     {
-        $information = Information::where('title', 'like', '%' . $this->search . '%')
+        $information = Information::orderBy('id', 'desc')
+            ->where('title', 'like', '%' . $this->search . '%')
             ->orWhere('description', 'like', '%' . $this->search . '%')
             ->orWhere('author', 'like', '%' . $this->search . '%')
             ->paginate(10);
