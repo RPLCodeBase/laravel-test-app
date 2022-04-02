@@ -47,7 +47,8 @@ class InformationController extends Controller
      */
     public function show($id)
     {
-        //
+        $information = Information::find($id);
+        return response()->json($information);
     }
 
     /**
