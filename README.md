@@ -6,16 +6,15 @@ Require `composer` and `php8 or higher`
 ```
 git clone https://github.com/RPLCodeBase/laravel-test-app.git
 ```
-
-2. setup .env file
-3. setup database
-4. generate key
-```
-php artisan key:generate
-```
-5. composer install
+2. composer install
 ```
 composer install
+```
+3. setup .env file
+4. setup database
+5. generate key
+```
+php artisan key:generate
 ```
 6. migrate
 ```
