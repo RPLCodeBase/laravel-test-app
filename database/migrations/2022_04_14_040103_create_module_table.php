@@ -13,14 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('berita', function (Blueprint $table) {
-            $table->bigIncrements('id_berita');
-            $table->string('id_kategori');
-            $table->string('judul');
-            $table->string('isi_berita');
-            $table->string('gambar');
-            $table->string('waktu');
-            $table->string('counter');
+        Schema::create('module', function (Blueprint $table) {
+            $table->bigIncrements('id_module');
+            $table->string('modul_name');
+            $table->string('link');
+            $table->text('static_content');
+            $table->string('picture');
+            // $table->enum('publish');
             $table->timestamps();
         });
     }
@@ -32,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('berita');
+        Schema::dropIfExists('module');
     }
 };
