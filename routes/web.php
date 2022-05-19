@@ -13,10 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.home');
-});
 
+
+Route::get('/', function () {
+    return view('layouts.index');
+});
+Route::get('/prodi', function () {
+    return view('layouts.prodi');
+});
+Route::get('/lomba', function () {
+    return view('layouts.lomba');
+});
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
