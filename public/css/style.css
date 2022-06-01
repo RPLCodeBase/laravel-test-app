@@ -1491,3 +1491,12 @@ section {
     padding-top: 4px;
   }
 }
+/*--------------------------------------------------------------
+# Tambahan
+--------------------------------------------------------------*/
+h4.medpens{
+  font-weight: 700;
+  font-size: 25px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}

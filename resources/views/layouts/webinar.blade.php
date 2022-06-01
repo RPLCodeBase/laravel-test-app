@@ -50,22 +50,12 @@
       <nav id="navbar" class="navbar">
         <ul>
         <li><a class="nav-link scrollto" href="/">Home</a></li>
-        <li class="dropdown"><a href="#"><span>Lomba</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="#">Video</a></li>
-                  <li><a href="#">Menulis</a></li>
-                  <li><a href="#">Desain</a></li>
-                  <li><a href="#">Photograpy</a></li>
-                </ul>
-              </li>
           <li class="dropdown"><a href="#"><span>Kategori</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Pelajar</a></li>
-              <li><a href="#">Mahasiswa</a></li>
-              <li><a href="#">Umum</a></li>
+              <li><a href="#">IT</a></li>
+              <li><a href="#">MMB</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#about">Artikel</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -94,7 +84,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h4 class="medpens">Enam mahasiswa Program Studi di Luar Kampus Utama (PSDKU) Lamongan Politeknik Elektronika Negeri Surabaya (PENS) yang tergabung dalam tim Visifilm memperoleh prestasi membanggakan dalam bidang videografi.</h4>
             <p class="fst-italic">
-            Diumumkan pada Minggu (17/4), dengan karya video bertajuk “Say No to Hoax”, tim tersebut berhasil meraih gelar Juara 2 kategori Video Semenit dalam kompetisi Public Health Event Competition Indonesia (PHECI) 2022. Diselenggarakan secara daring oleh Himpunan Mahasiswa Kesehatan Masyarakat (HMKM) Universitas Dian Nuswantoro Semarang, kompetisi tingkat nasional ini terbuka untuk mahasiswa dan pelajar se-Indonesia.
+            iumumkan pada Minggu (17/4), dengan karya video bertajuk “Say No to Hoax”, tim tersebut berhasil meraih gelar Juara 2 kategori Video Semenit dalam kompetisi Public Health Event Competition Indonesia (PHECI) 2022. Diselenggarakan secara daring oleh Himpunan Mahasiswa Kesehatan Masyarakat (HMKM) Universitas Dian Nuswantoro Semarang, kompetisi tingkat nasional ini terbuka untuk mahasiswa dan pelajar se-Indonesia.
           </p>
             <a href="https://www.pens.ac.id/2022/04/24/melalui-video-bertajuk-say-no-to-hoax-tim-visifilm-pens-raih-juara-dua-kategori-video-semenit-dalam-pheci-2022/" class="btn-get-started scrollto">Baca Selengkapnya...</a>
 

@@ -18,6 +18,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts.index');
 });
+Route::get('/webinar', function () {
+    return view('layouts.webinar');
+});
+Route::get('/politeknik', function () {
+    return view('layouts.politeknik');
+});
 Route::get('/prodi', function () {
     return view('layouts.prodi');
 });
