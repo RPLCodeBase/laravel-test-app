@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('layouts.index');
 });
 Route::get('/webinar', function () {
@@ -29,7 +30,16 @@ Route::get('/prodi', function () {
 });
 Route::get('/lomba', function () {
     return view('layouts.lomba');
+=======
+    return view('frontend.home');
+>>>>>>> 3697adbf9cb15246e3fa54dbabcbedc6344a944f
 });
+//Route::get('/prodi', function () {
+//    return view('layouts.prodi');
+//});
+//Route::get('/lomba', function () {
+//    return view('layouts.lomba');
+//});
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

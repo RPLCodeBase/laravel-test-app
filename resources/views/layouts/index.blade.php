@@ -104,7 +104,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>Terapkan Protokol Kesehatan yang Ketat, PENS Gelar Upacara Peringatan Hari Pendidikan Nasional</h3>
             <p class="fst-italic">
-            Surabaya, pens.ac.id - Dalam rangka memperingati Hari Pendidikan Nasional, Politeknik Elektronika Negeri Surabaya (PENS) usai menghelat Upacara Bendera pada Jumat (13/5). Dilaksanakan secara luring di Ruang Auditorium Lantai 6 Gedung Pascasarjana, acara ini dihadiri oleh Direktur PENS yakni Aliridho Barakbah, S.Kom., Ph.D dan jajarannya serta perwakilan dosen. Upacara yang bertajuk “Pimpin Pemulihan, Bergerak untuk Merdeka Belajar” berlangsung dengan penuh khidmat meskipun digelar secara terbatas dan menerapkan protokol kesehatan yang ketat.           
+            Surabaya, pens.ac.id - Dalam rangka memperingati Hari Pendidikan Nasional, Politeknik Elektronika Negeri Surabaya (PENS) usai menghelat Upacara Bendera pada Jumat (13/5). Dilaksanakan secara luring di Ruang Auditorium Lantai 6 Gedung Pascasarjana, acara ini dihadiri oleh Direktur PENS yakni Aliridho Barakbah, S.Kom., Ph.D dan jajarannya serta perwakilan dosen. Upacara yang bertajuk “Pimpin Pemulihan, Bergerak untuk Merdeka Belajar” berlangsung dengan penuh khidmat meskipun digelar secara terbatas dan menerapkan protokol kesehatan yang ketat.
           </p>
             <a href="https://www.pens.ac.id/2022/05/13/terapkan-protokol-kesehatan-yang-ketat-pens-gelar-upacara-peringatan-hari-pendidikan-nasional/" class="btn-get-started scrollto">Baca Selengkapnya...</a>
 
@@ -115,7 +115,7 @@
       </div>
     </section><!-- End Skills Section -->
 
-    
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
