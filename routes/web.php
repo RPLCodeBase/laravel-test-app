@@ -14,28 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-
+//Front UI
 Route::get('/', function () {
     return view('frontend.home');
 });
 Route::get('/webinar', function () {
-    return view('layouts.webinar');
+    return view('frontend.webinar');
 });
 Route::get('/politeknik', function () {
-    return view('layouts.politeknik');
+    return view('frontend.politeknik');
 });
 Route::get('/prodi', function () {
-    return view('layouts.prodi');
+    return view('frontend.prodi');
 });
 Route::get('/lomba', function () {
-    return view('layouts.lomba');
+    return view('frontend.lomba');
 });
-//Route::get('/prodi', function () {
-//    return view('layouts.prodi');
-//});
-//Route::get('/lomba', function () {
-//    return view('layouts.lomba');
-//});
+
+
+//Admin UI
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
