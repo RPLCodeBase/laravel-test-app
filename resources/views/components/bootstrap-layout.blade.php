@@ -6,8 +6,9 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Medpens</title>
-    <meta content="" name="description">
+    <meta content="Media Informasi Politeknik Elektronika Negeri Surabaya" name="description">
     <meta content="" name="keywords">
+    <meta name="google-site-verification" content="r6r0Yys1KjlwAoSMvH7QASex4AqJT6qasEOnDIeeoQM" />
 
     <!-- Favicons -->
     <link href="/img/favicon.png" rel="icon">
