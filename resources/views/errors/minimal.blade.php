@@ -28,7 +28,6 @@
                         @yield('message')
                     </div>
                 </div>
-                <a href="{{ url('/') }}" class="text-center text-gray-500 text-sm">HOMEPAGE</a>
             </div>
         </div>
     </body>
