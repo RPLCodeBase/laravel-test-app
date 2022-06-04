@@ -1,4 +1,3 @@
-<x-bootstrap-layout>
 <x-guest-layout class="bg-primary">
     <x-jet-authentication-card>
         <x-slot name="logo">
@@ -47,4 +46,3 @@
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>
-</x-bootstrap-layout>
