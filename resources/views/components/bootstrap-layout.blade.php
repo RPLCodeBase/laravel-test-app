@@ -50,19 +50,19 @@
             <ul>
                 <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Politeknik</a></li>
+                        <li><a href="/politeknik">Politeknik</a></li>
                         <li><a href="/prodi">Prodi</a></li>
-                        <li><a href="#">Project</a></li>
+                        <li><a href="/project">Project</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>Info</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="/lomba">Lomba</a></li>
-                        <li><a href="#">Webinar</a></li>
-                        <li><a href="#">Pengumuman</a></li>
+                        <li><a href="/webinar">Webinar</a></li>
+                        <li><a href="/pengumuman">Pengumuman</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto" href="#about">Search</a></li>
+                <li><a class="nav-link scrollto" href="#search">Search</a></li>
                 <li><a class="nav-link scrollto" href="/login">Login</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
