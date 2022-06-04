@@ -16,8 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-<<<<<<< HEAD
-    return view('layouts.index');
+    return view('frontend.home');
 });
 Route::get('/webinar', function () {
     return view('layouts.webinar');
@@ -30,9 +29,6 @@ Route::get('/prodi', function () {
 });
 Route::get('/lomba', function () {
     return view('layouts.lomba');
-=======
-    return view('frontend.home');
->>>>>>> 3697adbf9cb15246e3fa54dbabcbedc6344a944f
 });
 //Route::get('/prodi', function () {
 //    return view('layouts.prodi');
