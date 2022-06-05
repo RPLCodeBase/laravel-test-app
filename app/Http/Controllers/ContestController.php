@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Information;
-use Cviebrock\EloquentSluggable\Services\SlugService;
+use App\Models\Contest;
 use Illuminate\Http\Request;
 
-class InformationController extends Controller
+class ContestController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +14,7 @@ class InformationController extends Controller
      */
     public function index()
     {
-        $informations = Information::orderBy('id', 'desc')->paginate(10);
-        return view('frontend.information.index', compact('informations'));
+        //
     }
 
     /**
@@ -43,21 +41,21 @@ class InformationController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Information  $information
+     * @param  \App\Models\Contest  $contest
      * @return \Illuminate\Http\Response
      */
-    public function show(Information $information)
+    public function show(Contest $contest)
     {
-        return view('frontend.information.show', compact('information'));
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Information  $information
+     * @param  \App\Models\Contest  $contest
      * @return \Illuminate\Http\Response
      */
-    public function edit(Information $information)
+    public function edit(Contest $contest)
     {
         //
     }
@@ -66,10 +64,10 @@ class InformationController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Information  $information
+     * @param  \App\Models\Contest  $contest
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Information $information)
+    public function update(Request $request, Contest $contest)
     {
         //
     }
@@ -77,17 +75,11 @@ class InformationController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Information  $information
+     * @param  \App\Models\Contest  $contest
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Information $information)
+    public function destroy(Contest $contest)
     {
         //
-    }
-
-    public function checkSlug(Request $request)
-    {
-        $slug = SlugService::createSlug(Information::class, 'slug', $request->title);
-        return response()->json(['slug' => $slug]);
     }
 }

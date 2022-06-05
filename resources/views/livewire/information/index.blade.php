@@ -45,7 +45,7 @@
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td class="p-4 text-gray-900 dark:text-white">{{ $info->id }}</td>
                     <td class="p-4 text-gray-900 dark:text-white">{{ $info->title }}</td>
-                    <td class="p-4 text-gray-900 dark:text-white"><img class="h-auto" src="{{ $info->image }}"></td>
+                    <td class="p-4 text-gray-900 dark:text-white"><img class="h-auto" src="{{ asset('storage').'/information/'.$info->image }}"></td>
                     <td class="p-4 text-gray-900 dark:text-white">{{ $info->author }}</td>
                     <td class="p-4 text-gray-900 dark:text-white">{{ $info->description }}</td>
                     <td class="p-4 text-gray-900 dark:text-white">{{ $info->updated_at }}</td>

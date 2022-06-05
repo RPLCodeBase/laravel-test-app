@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\InformationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,6 +32,9 @@ Route::get('/lomba', function () {
     return view('frontend.lomba');
 });
 
+Route::get('/pengumuman', InformationController::class.'@index');
+Route::get('/pengumuman/{information}', InformationController::class.'@show')->name('info.show');
+
 
 //Admin UI
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin/dashboard', function () {
@@ -40,3 +44,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/admin/dashboard', functio
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin/info', function () {
     return view('information');
 })->name('info');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/admin/contest', function () {
+    return view('admin.contest-index');
+})->name('contest');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/admin/info/create', function () {
+    return view('admin.information.create-info');
+})->name('create-info');
