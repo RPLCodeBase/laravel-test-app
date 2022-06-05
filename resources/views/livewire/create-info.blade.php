@@ -13,8 +13,8 @@
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label>KONTEN</label>
-                    <textarea wire:model="description" class="form-control @error('content') is-invalid @enderror" rows="4" placeholder="Masukkan Konten"></textarea>
+                    <label>Description</label>
+                    <textarea wire:model="description" class="ckeditor form-control @error('content') is-invalid @enderror" rows="4" placeholder="Masukkan Konten" name="wysiwyg-editor"></textarea>
                     @error('content')
                     <span class="invalid-feedback">
                                 {{ $message }}
