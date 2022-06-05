@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\InformationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,6 +31,8 @@ Route::get('/prodi', function () {
 Route::get('/lomba', function () {
     return view('frontend.lomba');
 });
+
+Route::get('/pengumuman', InformationController::class.'@index');
 
 
 //Admin UI

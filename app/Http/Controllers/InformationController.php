@@ -14,7 +14,8 @@ class InformationController extends Controller
      */
     public function index()
     {
-        //
+        $informations = Information::orderBy('id', 'desc')->paginate(10);
+        return view('frontend.information.index', compact('informations'));
     }
 
     /**
