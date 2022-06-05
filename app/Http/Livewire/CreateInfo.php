@@ -3,6 +3,8 @@
 namespace App\Http\Livewire;
 
 use App\Models\Information;
+use Cviebrock\EloquentSluggable\Services\SlugService;
+use Illuminate\Support\Str;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 
@@ -12,6 +14,7 @@ class CreateInfo extends Component
     public $title;
     public $description;
     public $image;
+    public $slug;
 
     use WithFileUploads;
 
@@ -33,6 +36,7 @@ class CreateInfo extends Component
         $information = Information::create([
             'title'     => $this->title,
             'description'   => $this->description,
+            'slug' => Str::slug($this->title),
             'author'  => auth()->user()->name,
             'image'   => $imageName,
         ]);

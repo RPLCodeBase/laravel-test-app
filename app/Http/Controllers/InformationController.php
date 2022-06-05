@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Information;
+use Cviebrock\EloquentSluggable\Services\SlugService;
 use Illuminate\Http\Request;
 
 class InformationController extends Controller
@@ -47,7 +48,7 @@ class InformationController extends Controller
      */
     public function show(Information $information)
     {
-        //
+        return view('frontend.information.show', compact('information'));
     }
 
     /**
@@ -82,5 +83,11 @@ class InformationController extends Controller
     public function destroy(Information $information)
     {
         //
+    }
+
+    public function checkSlug(Request $request)
+    {
+        $slug = SlugService::createSlug(Information::class, 'slug', $request->title);
+        return response()->json(['slug' => $slug]);
     }
 }

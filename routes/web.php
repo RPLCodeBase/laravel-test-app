@@ -33,6 +33,7 @@ Route::get('/lomba', function () {
 });
 
 Route::get('/pengumuman', InformationController::class.'@index');
+Route::get('/pengumuman/{information}', InformationController::class.'@show')->name('info.show');
 
 
 //Admin UI

@@ -19,9 +19,9 @@
                     <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                         <h4 class="medpens">{{$info->title}}</h4>
                         <p class="fst-italic">
-                            {{$info->description}}
+                            {{Str::limit($info->description, 200)}}
                         </p>
-                        <a href="https://www.pens.ac.id/2022/04/24/melalui-video-bertajuk-say-no-to-hoax-tim-visifilm-pens-raih-juara-dua-kategori-video-semenit-dalam-pheci-2022/" class="btn-get-started scrollto">Baca Selengkapnya...</a>
+                        <a href="{{ route('info.show', $info->slug )}}" class="btn-get-started scrollto">Baca Selengkapnya...</a>
 
                     </div>
 
