@@ -13,7 +13,7 @@
         <div class="row g-5">
             <article class="blog-post">
                 <h2 class="blog-post-title">{{$information->title}}</h2>
-                <p class="blog-post-meta">{{$information->created_at->format('d F,Y H:i:s')}}<a href="">{{$information->author}}</a></p>
+                <p class="blog-post-meta">{{$information->created_at->format('d F, Y H:i:s')}}<a href="">    {{$information->author}}</a></p>
 
     <div class="blog-post-content">
                     <img src="{{ asset('storage').'/information/'.$information->image }}" class="img-fluid" alt="">
