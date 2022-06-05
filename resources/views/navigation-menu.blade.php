@@ -18,6 +18,9 @@
                     <x-jet-nav-link class="no-underline" href="{{ route('info') }}" :active="request()->routeIs('info')">
                         {{ __('Information') }}
                     </x-jet-nav-link>
+                    <x-jet-nav-link class="no-underline" href="{{ route('contest') }}" :active="request()->routeIs('contest')">
+                        {{ __('Lomba') }}
+                    </x-jet-nav-link>
                 </div>
             </div>
 

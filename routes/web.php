@@ -40,3 +40,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/admin/dashboard', functio
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin/info', function () {
     return view('information');
 })->name('info');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/admin/contest', function () {
+    return view('admin.contest-index');
+})->name('contest');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/admin/info/create', function () {
+    return view('admin.information.create-info');
+})->name('create-info');
